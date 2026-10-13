@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">json_pr_31_Evsyukov</string>
+    <string name="for_btnProcess">Выполнить сериализацию и десериализацию</string>
+    <string name="for_etTags">Теги (через запятую)</string>
+    <string name="for_etPrice">Цена товара</string>
+    <string name="for_etName">Название товара</string>
+    <string name="for_etUsername">Введите ваше имя</string>
+    <string name="for_tvWelcome">Добро пожаловать в\n«Коллекцию фильмов»!</string>
+    <string name="for_btnLogin">Войти и сохранить профиль</string>
+    <string name="film_collection">Коллекция фильмов</string>
+    <string name="Null_Movies">Пока пусто</string>
+    <string name="add_film">Добавить фильм</string>
+    <string name="film_name">Название</string>
+    <string name="film_director">Режиссер</string>
+    <string name="film_year">Год выпуска</string>
+    <string name="film_genre">Жанр</string>
+    <string name="film_save">Сохранить фильм</string>
+    <string name="film_showCollection">Посмотреть коллекцию</string>
+</resources>

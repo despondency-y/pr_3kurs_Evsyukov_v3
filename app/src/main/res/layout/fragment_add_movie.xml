@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background = "@color/background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_film"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white_smoke"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etMovieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/film_name"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+    <EditText
+        android:id="@+id/etMovieDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/film_director"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+    <EditText
+        android:id="@+id/etMovieYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/film_year"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+    <EditText
+        android:id="@+id/etMovieGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/film_genre"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnSaveMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/film_save"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/btn"/>
+    <Button
+        android:id="@+id/btnShowCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/film_showCollection"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/btn"
+        android:alpha="0.6"/>
+
+</LinearLayout>
